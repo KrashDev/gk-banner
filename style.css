@@ -1,6 +1,9 @@
 body {
   /* background-image: url("images/concrete-texture.png"); */
   background-image: url("images/agsquare.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   /* background-image: url("images/p5.png"); */
   /* background: linear-gradient(to right, #b06ab3, #4568dc); */
   overflow-x: hidden;
@@ -56,6 +59,27 @@ body {
 }
 
 /* -------------------------------------------------------- */
+
+.eyes {
+  z-index: 100;
+  opacity: 0;
+  animation: blink 10s infinite linear;
+}
+
+@keyframes blank {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
 .fly {
   z-index: 100;
