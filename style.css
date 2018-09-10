@@ -35,6 +35,26 @@ body {
   text-align: center;
 }
 
+.eyes img {
+  width: 11%;
+}
+
+.eyes {
+  top: -55%;
+  position: relative;
+  text-align: center;
+}
+
+.forum img {
+  width: 20%;
+}
+
+.forum {
+  top: -45%;
+  position: relative;
+  text-align: center;
+}
+
 /* -------------------------------------------------------- */
 
 .fly {
