@@ -1,0 +1,63 @@
+body {
+  /* background-image: url("images/concrete-texture.png"); */
+  background-image: url("images/agsquare.png");
+  /* background-image: url("images/p5.png"); */
+  /* background: linear-gradient(to right, #b06ab3, #4568dc); */
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
+/* --------- tool section -----------*/
+
+.main {
+  overflow: hidden;
+  top: 11%;
+  left: 12%;
+  position: absolute;
+  margin-top: 3%;
+  margin: 0 auto;
+  background: url(images/forest.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* optional, center the image */
+  background-position: center center;
+  /* background: linear-gradient(to right, #b06ab3, #4568dc); */
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  height: 400px;
+  width: 1220px;
+}
+
+.banner img {
+  width: 60%;
+}
+
+.banner {
+  text-align: center;
+}
+
+/* -------------------------------------------------------- */
+
+.fly {
+  z-index: 100;
+  position: absolute;
+  display: block;
+  opacity: 0;
+  animation: blink 2s infinite linear;
+}
+
+.fly img {
+  width: 15px;
+  height: 15px;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+  }
+}
