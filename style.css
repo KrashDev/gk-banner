@@ -63,7 +63,7 @@ body {
 .eyes {
   z-index: 100;
   opacity: 0;
-  animation: blink 10s infinite linear;
+  animation: blank 10s infinite linear;
 }
 
 @keyframes blank {
